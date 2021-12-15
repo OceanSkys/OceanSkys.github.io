@@ -1,0 +1,100 @@
+.nav1{
+    justify-content: right;
+    padding-right: 20px;
+}
+#background1{
+    background-image: url("../img/IMG_5402.JPEG"); 
+    background-size: 100% 150%;
+    background-repeat: no-repeat;
+    top: 100;
+}
+.parallax{
+    display: flex;
+    justify-content: center;
+    min-height: 550px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+.parallax2{
+    display: flex;
+    min-height: 400px;
+    justify-content: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+
+.box1{
+    height: 600px;;
+    width: 600px;
+    color: red;
+}
+.box2{
+    height: 400px;;
+    width: 700px;
+    color: white;
+    background-color: black; 
+    word-wrap: initial;
+
+}
+#jer{
+    min-width: 600;
+    max-width: 100%;
+    object-fit: cover;
+    position: inherit;
+}
+/* Carousel */
+.car1{
+    width: 1400px;
+    justify-content: flex-end;
+}
+.car2{
+    width: 1400px;
+}
+.picRow{
+    height: 500px;
+    background-color: aqua;
+}
+.picCol{
+    height: 700px;
+    width: 500px;
+    background-color: aqua;
+}
+.box3{
+    height: 300px;
+    width: 250px;
+    background-color: red;
+}
+.box4{
+    height: 300px;
+    width: 250px;
+    background-color: blue;
+}
+/* Background Image For Photo Section on about page */
+.bk2{
+    background-image: url("../img/IMG_1004.JPG");
+    background-size: 150% 100%;
+    background-repeat: no-repeat;
+}
+.con1{
+    z-index: 1;
+}
+.con2{
+    margin-top: 750px;
+
+}
+.footer1{
+    display: flex;
+    height: 100px;
+    border: solid;
+    border-color: red;
+}
+.footer2{
+    border: solid;
+    border-color: blue;
+}
