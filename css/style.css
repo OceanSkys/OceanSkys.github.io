@@ -3,7 +3,7 @@
     padding-right: 20px;
 }
 #background1{
-    background-image: url("../img/IMG_5402.JPEG"); 
+    background-image: url("../img/IMG_5402.JPEG");
     background-size: 100% 150%;
     background-repeat: no-repeat;
     top: 100;
@@ -38,7 +38,7 @@
     height: 400px;;
     width: 700px;
     color: white;
-    background-color: black; 
+    background-color: black;
     word-wrap: initial;
 
 }
@@ -48,14 +48,15 @@
     object-fit: cover;
     position: inherit;
 }
+#pic1{
+
+}
 /* Carousel */
 .car1{
     width: 1400px;
     justify-content: flex-end;
 }
-.car2{
-    width: 1400px;
-}
+
 .picRow{
     height: 500px;
     background-color: aqua;
@@ -81,20 +82,20 @@
     background-size: 150% 100%;
     background-repeat: no-repeat;
 }
-.con1{
-    z-index: 1;
-}
 .con2{
     margin-top: 750px;
-
+}
+.web:hover{
+    opacity: 40%;
 }
 .footer1{
     display: flex;
     height: 100px;
-    border: solid;
-    border-color: red;
 }
+/* Footer for Contact Page */
 .footer2{
-    border: solid;
-    border-color: blue;
+    display: flex;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
 }
