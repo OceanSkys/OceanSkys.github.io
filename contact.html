@@ -8,12 +8,15 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&family=Playfair+Display:ital@1&family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital@1&family=PT+Sans+Narrow:wght@700&family=Playfair+Display:ital@1&family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
     <title>Contact Page</title>
   </head>
-  <body>
+  <body class="padding-bottom: 70px;">
     <!-- Nav Section/Logo-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fs-5">
-      <a class="navbar-brand fs-2 mx-5" href="#">Jeremy's Portfolio</a>
+      <!-- Added google font -->
+      <a class="navbar-brand fs-2 mx-5 font1" href="/index.html">Jeremy's Portfolio</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -31,16 +34,16 @@
         </ul>
       </div>
     </nav>
-    <!-- Contact Forum -->
-    <form class="container border-5 border border-color-secondary my-5 p-5">
-      <div class="row d-flex align-items-center">
+    <!-- Contact Forum, edited placeholders and redid a couple sections-->
+    <form class="container border-5 border border-color-secondary my-3 p-5">
+      <div class="row d-flex align-items-center font1">
         <div class="col-md-4 mb-3">
           <label for="validationDefault01">First name</label>
-          <input type="text" class="form-control" id="validationDefault01" placeholder="First name" value="John" required>
+          <input type="text" class="form-control font2" id="validationDefault01" placeholder="First name" value="John" required>
         </div>
         <div class="col-md-4 mb-3">
           <label for="validationDefault02">Last name</label>
-          <input type="text" class="form-control" id="validationDefault02" placeholder="Last name" value="Doe" required>
+          <input type="text" class="form-control font2" id="validationDefault02" placeholder="Last name" value="Doe" required>
         </div>
         <div class="col-md-4 mb-3">
           <label for="validationDefaultUsername">Username</label>
@@ -48,46 +51,46 @@
             <div class="input-group-prepend">
               <span class="input-group-text" id="inputGroupPrepend2">@</span>
             </div>
-            <input type="text" class="form-control" id="validationDefaultUsername" placeholder="Username" aria-describedby="inputGroupPrepend2" required>
+            <input type="text" class="form-control font2" id="validationDefaultUsername" placeholder="Username" aria-describedby="inputGroupPrepend2" required>
           </div>
         </div>
       </div>
-      <div class="form-row">
+      <div class="form-row font1">
         <div class="col-md-6 mb-3">
           <label for="validationDefault03">Email</label>
-          <input type="text" class="form-control" id="validationDefault03" placeholder="Enter your email" required>
+          <input type="text" class="form-control font2" id="validationDefault03" placeholder="Enter your email" required>
         </div>
         <div class="col-md-3 mb-3">
           <label for="validationDefault04">Donate?</label>
-          <input type="text" class="form-control" id="validationDefault04" placeholder="$100 min" required>
+          <input type="text" class="form-control font2" id="validationDefault04" placeholder="$100 min" required>
         </div>
         <div class="col-md-3 mb-3">
           <label for="validationDefault05">Email Updates</label>
-          <input type="text" class="form-control" id="validationDefault05" placeholder="Yes or No?" required>
+          <input type="text" class="form-control font2" id="validationDefault05" placeholder="Yes or No?" required>
         </div>
       </div>
       <div class="form-group">
         <div class="form-check">
           <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-          <label class="form-check-label" for="invalidCheck2">
+          <label class="form-check-label font1" for="invalidCheck2">
             Agree to terms and conditions
           </label>
         </div>
       </div>
       <button class="btn btn-primary" type="submit">Submit form</button>
     </form>
-    <!-- Footer Section-->
-    <footer class="container-fluid footer2 bg-light">
+    <!-- Footer Section, need to fix footer for contact page, put fixed bottom for now-->
+    <footer class="container-fluid footer2 bg-light navbar fixed-bottom fixed-bottom">
       <div class="col-6 d-flex align-items-center fa-3x mx-1">
         <!-- Tried using stylesheet to edit these font icons, no luck, so used inline style -->
         <a href="https://www.instagram.com/jeremyyzz/" class="fab fa-instagram p-1" target="_blank" style="text-decoration: none; color: red"></a>
         <a href="https://www.reddit.com/" class="fab fa-reddit-alien p-1" target="_blank" style="text-decoration: none; color: orangered"></a>
         <a href="https://www.facebook.com/profile.php?id=100009856054876" class="fab fa-facebook p-1" target="_blank" style="text-decoration: none; color: blue"></a>
         <a href="https://www.pinterest.com/" class="fab fa-pinterest p-1" target="_blank" style="text-decoration: none; color: red"></a>
-        <h5 class="px-3">Give me a Follow!</h5>
+        <h5 class="px-3 font2">Give me a Follow!</h5>
       </div>
       <div class="col-6 d-flex justify-content-end align-items-center px-3">
-        <p>Thanks for visiting</p>
+        <p class="font1 fs-3">~ Jeremy Thornton</p>
       </div>
     </footer>
     <!-- Optional JavaScript; choose one of the two! -->

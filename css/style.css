@@ -1,3 +1,9 @@
+.font1{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.font2{
+    font-family: 'DM Sans', sans-serif;
+}
 .nav1{
     justify-content: right;
     padding-right: 20px;
@@ -11,7 +17,7 @@
 .parallax{
     display: flex;
     justify-content: center;
-    min-height: 550px;
+    min-height: 750px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -34,23 +40,14 @@
     width: 600px;
     color: red;
 }
-.box2{
-    height: 400px;;
-    width: 700px;
-    color: white;
-    background-color: black;
-    word-wrap: initial;
 
-}
 #jer{
     min-width: 600;
     max-width: 100%;
     object-fit: cover;
     position: inherit;
 }
-#pic1{
 
-}
 /* Carousel */
 .car1{
     width: 1400px;
@@ -59,6 +56,9 @@
 
 .picRow{
     height: 500px;
+    background-color: aqua;
+}
+.picRow2{
     background-color: aqua;
 }
 .picCol{
@@ -92,10 +92,13 @@
     display: flex;
     height: 100px;
 }
-/* Footer for Contact Page */
 .footer2{
     display: flex;
-    height: 100px;
-    position: absolute;
-    bottom: 0;
+    height: 70px;
 }
+.colum {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
