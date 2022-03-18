@@ -10,8 +10,10 @@
 }
 #background1{
     background-image: url("../img/IMG_5402.JPEG");
-    background-size: 100% 150%;
+    background-size: 100%;
     background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
     top: 100;
 }
 .parallax{
@@ -101,4 +103,8 @@
     justify-content: center;
     align-items: center;
 }
-  
+/* carousel image height/width */
+.carry {
+    width: 100%;
+    height: auto;
+}
