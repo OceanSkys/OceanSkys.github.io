@@ -16,12 +16,12 @@
     <!-- Nav Section/Logo-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fs-5">
       <!-- Added google font -->
-      <a class="navbar-brand fs-2 mx-5 font1" href="/index.html">Jeremy's Portfolio</a>
+      <a class="navbar-brand fs-2 px-5 font1" href="/index.html">Jeremy's Portfolio</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse nav1 mx-5 fs-4" id="navbarNav">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav navi">
           <li class="nav-item active px-2">
             <a class="nav-link" href="/index.html">Home</a>
           </li>
@@ -40,21 +40,20 @@
         <div class= "flex-wrap font1">
           <p style="font-size: 60px;">Welcome to my page<p>
         </div>
-        </div>
       </div>
     </div>
     <!-- Section#2 Info about me -->
     <section>
-      <div class="container py-5 colum">
-        <div class="row align-items-center border-4 ">
-          <div class="col-6 justify-content-center px-5 py-4 ">
-            <div class=" d-flex">
-              <img src="/img/Pic of me.png" class="img-fluid border-5 d-flex border border-secondary" id="jer"  alt="It's me!"> 
+      <div class="container py-5 colum d-flex flex-wrap">
+        <div class="row d-flex align-items-center border-4 cont my-5">
+          <div class="col-6 d-flex justify-content-center ">
+            <div class="d-flex">
+              <img src="/img/Pic of me.png" class="border-5 border border-secondary" id="jer"  alt="It's me!"> 
             </div>
           </div>
-          <div class="col-6 justify-content-left py-4">
-            <div class="text-left align-items-center">
-              <p class="opacity-75  fs-4 font2"><span class="h1 d-flex align-items-center justify-content-center font1">About Me</span><br> Hello! My name is Jeremy Thornton, and welcome to my website! I was born and raised in Fresno/Clovis, and I am currently taking courses at Clovis Community College. I love learning about computers, science, and the tech industry. I also love what BitWise is doing and how they really care about people, and it is where I see the future of science and technology is going. One interesting fact about me is that I am an identical twin! I am also a very creative person, and love photography, poetry, music, and creating things. </p>
+          <div class="col-6 d-flex justify-content-left py-4 aboutme">
+            <div class="text-left align-items-center ">
+              <p class="opacity-75 fs-4 font2"><span class="h1 d-flex align-items-center justify-content-center font1">About Me</span><br> Hello! My name is Jeremy Thornton, and welcome to my website! I was born and raised in Fresno/Clovis, and I am currently taking courses at Clovis Community College. I love learning about computers, science, and the tech industry. I also love what BitWise is doing and how they really care about people, and it is where I see the future of science and technology is going. One interesting fact about me is that I am an identical twin! I am also a very creative person, and love photography, poetry, music, and creating things. </p>
             </div>
           </div>
         </div>
@@ -62,30 +61,30 @@
     </section>
     <!-- Carousel/Music -->
     <section>
-      <div class="container-fluid justify-content-center flex-wrap my-5">
+      <div class="container-fluid justify-content-center d-flex my-5">
         <row class="d-flex align-items-center" style="border: solid">
-          <div class="col-6 d-flex justify-content-start align-items-center">
+          <div class="col-6 d-flex flex-wrap flex-direction-column justify-content-start align-items-center">
             <p class="font2"><span class="h1 d-flex align-items-center justify-content-center font1">My Hobbies</span><br>When I am not coding or working on college coursework, I love listening to music! Some of my favorite artists include Bon Iver, Kid Cudi, Phoebe Bridgers, and Coldplay. I also really enjoy playing videos games, and you can find me playing Rocket League, Minecraft, or Fortnite with my little brother. When I have more free time, I love to travel. Hiking is a great passion of mine as well. Photography is another great hobby that I would love to continue when I am able to afford a nice camera. </p>
           </div>
-          <div id="carouselExampleCaptions" class="col-6 slide d-flex img-fluid" data-bs-ride="carousel">
-            <div class="carousel-inner d-flex justify-content-start car2">
+          <div id="carouselExampleCaptions" class="col-6 slide d-flex" data-bs-ride="carousel">
+            <div class="carousel-inner d-flex justify-content-start">
               <div class="carousel-item active">
-                <img src="/img/Beach.jpg" class="d-block" style="max-height: 500px;" alt="...">
+                <img src="/img/Beach.jpg" class="d-block hobbies" style="max-height: 500px;" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="/img/Laptop 1.JPG" class="d-block" style="max-height: 500px;" alt="...">
+                <img src="/img/Laptop 1.JPG" class="d-block hobbies" style="max-height: 500px;" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="/img/Bridge.JPG" class="d-block" style="max-height: 500px;" alt="...">
+                <img src="/img/Bridge.JPG" class="d-block hobbies" style="max-height: 500px;" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="/img/IMG_1411.JPG" class="d-block" style="max-height: 500px;" alt="...">
+                <img src="/img/IMG_1411.JPG" class="d-block hobbies" style="max-height: 500px;" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                 </div>
               </div>
@@ -96,7 +95,7 @@
     </section>
     <!-- Footer Section-->
     <footer class="container-fluid footer1 bg-light">
-      <div class="col-6 d-flex align-items-center fa-3x mx-1">
+      <div class="col-6 d-flex flex-shrink-2 align-items-center fa-3x mx-1">
         <!-- Tried using stylesheet to edit these font icons, no luck, so used inline style -->
         <a href="https://www.instagram.com/jeremyyzz/" class="fab fa-instagram p-1" target="_blank" style="text-decoration: none; color: red"></a>
         <a href="https://www.reddit.com/" class="fab fa-reddit-alien p-1" target="_blank" style="text-decoration: none; color: orangered"></a>

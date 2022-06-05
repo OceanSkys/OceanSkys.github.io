@@ -8,10 +8,23 @@
     justify-content: right;
     padding-right: 20px;
 }
+.navi{
+    margin: 10px -60px;
+    justify-content: right;
+    text-align: right;
+}
+/* @media screen and (max-width: 600px) {
+    .navi a{
+      float: none;
+      width: 100%;
+    }
+  } */
 #background1{
     background-image: url("../img/IMG_5402.JPEG");
-    background-size: 100% 150%;
+    width: 100%;
+    height: auto;
     background-repeat: no-repeat;
+    background-position: center;
     top: 100;
 }
 .parallax{
@@ -35,19 +48,25 @@
     align-items: center;
 }
 
+
+
+@media screen and (max-width: 800px) {
+    .cont {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
 .box1{
     height: 600px;;
     width: 600px;
     color: red;
 }
 
-#jer{
-    min-width: 600;
-    max-width: 100%;
-    object-fit: cover;
-    position: inherit;
-}
+.jer{
+    width:100%;
+    height: auto;
 
+}
 /* Carousel */
 .car1{
     width: 1400px;
@@ -88,6 +107,10 @@
 .web:hover{
     opacity: 40%;
 }
+.hobbies{
+    width: 100%;
+    height: auto;
+}
 .footer1{
     display: flex;
     height: 100px;
@@ -96,7 +119,30 @@
     display: flex;
     height: 70px;
 }
-.colum {
+.footerwidth {
+    width: 100%;
+}
+@media screen and (max-width: 600px) {
+    .footer1{
+      width: 100%;
+    }
+  }
+@media screen and (max-width: 520px) {
+    .footercolumn{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .footercolumn2{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .ytmargin {
+        margin-bottom: 30px;
+    }
+}
+.colum{
     display: flex;
     justify-content: center;
     align-items: center;
