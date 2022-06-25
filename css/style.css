@@ -131,6 +131,9 @@
     flex-direction: column;
     width: 100%;
     }
+    .aboutmetxt{
+        width: 95%;
+    }
   }
   @media screen and (max-width: 632px) {
     .aboutmepic{
@@ -184,6 +187,8 @@
         justify-content: center;
         align-content: center;
         object-fit: contain;
+        /* margin-top: 20px; */
+        padding: 5px;
         /* border: solid;
         border-color: black; */
     }
@@ -196,11 +201,6 @@
         width: 100%;
     }
   }
-.colum{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 /* carousel image height/width */
 .carry {
     width: 100%;
@@ -229,3 +229,27 @@
         font-size: 50px;
     } */
   }
+  @media screen and (max-width: 520px) {
+    .ytflip{
+        flex-direction: column;
+        flex-wrap: wrap;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .ytflip2{
+        width: 100%;
+    }
+    .ytflip3{
+        flex-direction: column;
+        flex-wrap: wrap;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+}
