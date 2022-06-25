@@ -32,6 +32,7 @@
     width: 100%;
     height: auto;
     top: 100;
+    background-color: #d0d5db;
 }
 .parallax{
     display: flex;
@@ -42,6 +43,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     align-items: center;
+    background-color: #d0d5db;
 }
 .parallax2{
     display: flex;
@@ -81,11 +83,18 @@
 .picRow2{
     background-color: aqua;
 }
+.picRow3 {
+    background-color: #d0d5db;
+    height: 500px;
+}
+.picrow4 {
+    background-color: #d0d5db;
+}
 .picCol{
     height: 700px;
     width: 500px;
-    background-color: aqua;
 }
+
 .box3{
     height: 300px;
     width: 250px;
@@ -107,7 +116,6 @@
     opacity: 40%;
 }
 .hobbies{
-    width: 100%;
     height: auto;
 }
 .footer1{
@@ -126,6 +134,16 @@
       width: 100%;
     }
   }
+@media screen and (max-width: 600px) {
+.hobbies2{
+    flex-direction: column;
+    width: 100%;
+}
+.hero-width {
+    width: 100%;
+}
+}
+
   @media screen and (max-width: 1370px) {
     .aboutme{
     flex-direction: column;
@@ -252,4 +270,10 @@
         margin-top: 20px;
         margin-bottom: 30px;
     }
+}
+
+.hero-width {
+    width: 100%;
+    display: flex;
+    border-radius: 30px;
 }
